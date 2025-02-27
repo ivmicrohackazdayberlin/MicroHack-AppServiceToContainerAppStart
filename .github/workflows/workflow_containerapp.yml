@@ -63,3 +63,6 @@ jobs:
         containerAppEnvironment: microhack-containerapp-env-im
         containerAppName: microhack-containerapp-im
         targetPort: 8080
+
+        environmentVariables: |
+                  API_URL=https://microhack-aiapp-im.icyisland-b1a98916.westeurope.azurecontainerapps.io
